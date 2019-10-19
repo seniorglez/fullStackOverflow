@@ -1,11 +1,13 @@
-aside {min-width: 340px}
+aside {min-width: 400px}
 
 aside * {margin: 20px}
 
 aside div,
 aside input,
-aside button {
+aside button,
+aside select {
     color: #333;
+    background-color: white;
     padding: 5px 8px;
     font-size: 1.1em;
     
@@ -13,3 +15,5 @@ aside button {
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2)
 }
+
+aside input {width: 100px}
