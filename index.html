@@ -19,7 +19,15 @@
 
     <section class="main-content">
         <aside>
-            <button class="search-data">Search data</button>
+            <select name="data" id="data">
+                <optgroup label="Medioambiente" >
+                    <option value="">:P</option>
+                </optgroup>
+                <optgroup label="..." >
+                        <option value="">:P</option>
+                    </optgroup>
+            </select>
+            <button id="search-data">Add data</button>
         </aside>
 
         <canvas id="canvasOne" width="600" height="600">
@@ -27,11 +35,12 @@
         </canvas>
 
         <aside>
-            <button class="add-data">Add data</button>
+            <button id="add-data">Add data</button>
         </aside>
     </section>
 
     <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/controls.js"></script>
 </body>
 </html>
