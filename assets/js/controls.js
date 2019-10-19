@@ -24,9 +24,9 @@ function getColorSelector() {
 
     colors.forEach(color => {
         let colorOption = document.createElement("option");
+
         colorOption.setAttribute("value", color);
         colorOption.innerText = color;
-
         selectorElement.appendChild(colorOption);
     });
 
@@ -79,7 +79,7 @@ export default function generateCoordParagraph() {
         container.removeChild(delButton);
     })
 
-    coordNameParagraph.setAttribute("class", colorSelector.value);
+    console.log(colorSelector.selectedIndex);
     coordNameParagraph.innerText = inputCoordName.value;
     
     container.removeChild(pickButton.previousSibling);

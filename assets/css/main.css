@@ -29,11 +29,3 @@ nav > a {
     flex-flow: row nowrap;
     justify-content: space-between;
 }
-
-.pins > span {min-width: 300px;}
-span.red {color: red}
-span.blue {color: blue}
-span.green {color: green}
-span.purple {color: purple}
-span.orange {color: orange}
-span.yellow {color: yellow}
