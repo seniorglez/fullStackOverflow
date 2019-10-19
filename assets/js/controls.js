@@ -1,4 +1,4 @@
-import selectPoint from './main.js';
+import createPoint from './main.js';
 
 let searchDataButton = document.getElementById("search-data");
 let addDataButton = document.getElementById("add-data");
@@ -9,6 +9,14 @@ function injectData(element, objData) {
     });
 }
 
+function getColorSelector() {
+    let colors = [
+        "red",
+        "pink",
+        "orange",
+        "yellow",
+    ];
+}
 
 searchDataButton.addEventListener("click", function () {
     let divWithData = document.createElement("div");
@@ -18,13 +26,17 @@ searchDataButton.addEventListener("click", function () {
 addDataButton.addEventListener("click", function () {
     let controls = [];
     let inputCoordName = document.createElement("input");
+    let colorSelector = getColorSelector();
     let pickButton = document.createElement("button");
 
     inputCoordName.setAttribute("placeholder", "Name");
     inputCoordName.setAttribute("id", "coordName");
     pickButton.innerText = "Pick";
     pickButton.addEventListener("click", () => {
-        selectPoint();
+        createPoint("orange");
+        let container = this.parentElement;
+        //let co
+        //container.replaceChild()
     });
 
     controls.push(document.createElement("br"));
