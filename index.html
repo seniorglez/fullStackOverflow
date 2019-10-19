@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,40 +8,51 @@
     <title>PinAround</title>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
     <header>
-        <img src="#" alt="D:">
-        <h1>PinAround</h1>
         <nav>
-            <a href="#">LogIn</a>
-            <a href="#">Register</a>
+            <ul>
+                <li>
+                    <a href="#"><img src="Logo\LogoBueno14.png" alt="D:" width="180px" ></a>
+                </li>
+                <li>
+                    <a href="#">LogIn</a>
+                </li>
+                <li>
+                    <a href="#">Register</a>
+                </li>
+            </ul>
+
         </nav>
     </header>
 
     <section class="main-content">
         <aside>
             <select name="data" id="data">
-                <optgroup label="Medioambiente" >
+                <optgroup label="Medioambiente">
                     <option value="">:P</option>
                 </optgroup>
-                <optgroup label="..." >
-                        <option value="">:P</option>
-                    </optgroup>
+                <optgroup label="...">
+                    <option value="">:P</option>
+                </optgroup>
             </select>
             <button id="search-data">Add data</button>
         </aside>
 
-        <canvas id="canvasOne" width="600" height="600">
-            Your browser does not support HTML5 Canvas.
-        </canvas>
-
         <aside>
             <button id="add-data">Add data</button>
         </aside>
+    </section>
+    <section class="canvas-content">
+        <canvas id="canvasOne" width="1240" height="1080">
+            Your browser does not support HTML5 Canvas.
+        </canvas>
     </section>
 
     <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/controls.js"></script>
 </body>
+
 </html>
