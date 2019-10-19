@@ -1,0 +1,31 @@
+@import "aside.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: #00103b;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right
+}
+
+nav > a {
+    color: gold;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
