@@ -1,3 +1,5 @@
+import selectPoint from './main.js';
+
 let searchDataButton = document.getElementById("search-data");
 let addDataButton = document.getElementById("add-data");
 
@@ -19,8 +21,11 @@ addDataButton.addEventListener("click", function () {
     let pickButton = document.createElement("button");
 
     inputCoordName.setAttribute("placeholder", "Name");
-    pickButton.setAttribute("id", "---");
+    inputCoordName.setAttribute("id", "coordName");
     pickButton.innerText = "Pick";
+    pickButton.addEventListener("click", () => {
+        selectPoint();
+    });
 
     controls.push(document.createElement("br"));
     controls.push(inputCoordName);
