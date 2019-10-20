@@ -1,6 +1,7 @@
 import generateCoordParagraph from './controls.js';
 
 ///letIABLES///
+
 let modoSeleccion = false; //Esta letiable se encarga de actilet el modo
 let pinColor;
 
@@ -10,6 +11,9 @@ wwd.redraw();
 
 wwd.addLayer(new WorldWind.BMNGOneImageLayer());
 wwd.addLayer(new WorldWind.BMNGLandsatLayer());
+wwd.addLayer(new WorldWind.AtmosphereLayer());
+wwd.addLayer(new WorldWind.StarFieldLayer());
+console.log(WorldWind);
 
 //Atributos marcador
 let placemarkLayer = new WorldWind.RenderableLayer();

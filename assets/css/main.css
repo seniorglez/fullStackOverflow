@@ -46,6 +46,7 @@ li:first-child{
 
 canvas{
     position: absolute;
+    background-color: black;
     bottom: 0; left: 0;
     height: calc(100vh - 80px);
     width: 100vw;
