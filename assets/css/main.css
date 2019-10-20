@@ -7,6 +7,7 @@ html, body {
 
 header {
     color: white;
+    height: 80px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 25px;
@@ -43,13 +44,9 @@ li:first-child{
     justify-content: space-between;
 }
 
-.canvas-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-}
 canvas{
-    width: 1280;
-    height: 1024;
+    position: absolute;
+    bottom: 0; left: 0;
+    height: calc(100vh - 80px);
+    width: 100vw;
 }

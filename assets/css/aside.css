@@ -1,8 +1,11 @@
-aside {min-width: 400px}
+aside {min-width: 500px;
+    z-index: 1;
+}
 
 aside * {margin: 20px}
 
 aside div,
+aside span,
 aside input,
 aside button,
 aside select {
