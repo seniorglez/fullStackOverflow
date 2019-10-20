@@ -30,11 +30,20 @@
     <section class="main-content">
         <aside>
             <select name="data" id="data">
-                <optgroup label="Medioambiente">
-                    <option value="">:P</option>
+                <option disabled selected value> -- select an option -- </option>
+                <optgroup label="Eviroment">
+                    <option value="">Fires</option>
+                    <option value="">Clean water</option>
+                    <option value="">Air pollution</option>
                 </optgroup>
-                <optgroup label="...">
-                    <option value="">:P</option>
+                <optgroup label="Population">
+                    <option value="">Crude birth rate</option>
+                    <option value="">Crude death rate</option>
+                    <option value="">Yearly growth rate</option>
+                </optgroup>
+                <optgroup label="Economy">
+                    <option value="">GDP</option>
+                    <option value="">Unemployement</option>
                 </optgroup>
             </select>
             <button id="search-data">Add data</button>
@@ -63,7 +72,7 @@
 
         <aside class="pins">
             <button id="add-data">Add data</button>
-            <input type="file" id="import-data">Import data</input>
+            <button>Import data</button>
         </aside>
     </section>
 

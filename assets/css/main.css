@@ -95,7 +95,7 @@ canvas{
     height: 50px;
     border: solid 1px black;
 }
-p{
+.informaFila > p{
     background-color: brown;
     height: 23px;
     width: 23px;

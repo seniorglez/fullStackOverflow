@@ -37,6 +37,15 @@ function getColorSelector() {
 searchDataButton.addEventListener("click", function () {
     let divWithData = document.createElement("div");
     let divColorLegend = document.getElementById("legend");
+    let name = document.createElement("span");
+    let delButton = document.createElement("button");
+    divWithData.setAttribute("id", "data-info");
+    delButton.innerText = "x";
+    name.innerText = "Crude birth rate by country (+ is better).";
+    divWithData.append(name);
+    divWithData.append(delButton);
+
+
     this.parentElement.removeChild(divColorLegend);
     this.parentElement.append(divWithData);
     this.parentElement.append(divColorLegend);

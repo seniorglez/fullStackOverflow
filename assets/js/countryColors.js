@@ -60,6 +60,7 @@ export default function create_country_layer() {
     let worldShapefile = new WorldWind.Shapefile(shapefileLibrary + "/ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp");
     worldShapefile.load(null, shapeConfigurationCallback, worldLayer);
     wwd.addLayer(worldLayer);
+    wwd.redraw();
 }
 
 /* Function to remap the numbers in a range to another range */

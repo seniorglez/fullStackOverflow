@@ -7,7 +7,7 @@ aside > * {margin: 20px}
 aside > div,
 aside > span,
 aside > input,
-aside > button,
+aside button,
 aside > select {
     color: #333;
     background-color: white;
@@ -17,6 +17,12 @@ aside > select {
     border: 1.8px solid #d3d3d3;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2)
+}
+
+#data-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 aside input {width: 100px}
