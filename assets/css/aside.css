@@ -2,13 +2,13 @@ aside {min-width: 500px;
     z-index: 1;
 }
 
-aside * {margin: 20px}
+aside > * {margin: 20px}
 
-aside div,
-aside span,
-aside input,
-aside button,
-aside select {
+aside > div,
+aside > span,
+aside > input,
+aside > button,
+aside > select {
     color: #333;
     background-color: white;
     padding: 5px 8px;

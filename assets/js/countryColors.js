@@ -1,7 +1,7 @@
 import {
     birthRate
 } from "./csv.js";
-
+import { wwd } from "./main.js";
 /* Functions */
 //ShapeFiles
 var shapeConfigurationCallback = function (attributes, record) {
@@ -52,7 +52,7 @@ var shapeConfigurationCallback = function (attributes, record) {
     return configuration;
 };
 /* Function to add a layer with the different countrys */
-export function create_country_layer() {
+export default function create_country_layer() {
     //Countries layer
     let shapefileLibrary = "https://worldwind.arc.nasa.gov/web/examples/data/shapefiles/naturalearth";
 

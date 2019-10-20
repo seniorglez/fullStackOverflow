@@ -1,4 +1,5 @@
 import createPoint from './main.js';
+import create_country_layer from './countryColors.js';
 
 let searchDataButton = document.getElementById("search-data");
 let addDataButton = document.getElementById("add-data");
@@ -35,7 +36,11 @@ function getColorSelector() {
 
 searchDataButton.addEventListener("click", function () {
     let divWithData = document.createElement("div");
-    this.parentElement.appendChild(divWithData);
+    let divColorLegend = document.getElementById("legend");
+    this.parentElement.removeChild(divColorLegend);
+    this.parentElement.append(divWithData);
+    this.parentElement.append(divColorLegend);
+    create_country_layer();
 });
 
 addDataButton.addEventListener("click", function () {

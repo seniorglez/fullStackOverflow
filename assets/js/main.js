@@ -5,7 +5,8 @@ import generateCoordParagraph from './controls.js';
 let modoSeleccion = false; //Esta letiable se encarga de actilet el modo
 let pinColor;
 
-let wwd = new WorldWind.WorldWindow("canvasOne");
+export let wwd = new WorldWind.WorldWindow("canvasOne");
+
 wwd.navigator.range = 25e6//distancia a la elipse
 wwd.redraw();
 
