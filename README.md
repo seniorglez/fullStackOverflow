@@ -27,7 +27,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Diego Dominguez Gonzalez, Carlos del Cura Pascual, Saul Blanco Tejero, Edgar Lopez Herrera, Diego Sanchez Strange](https://github.com/seniorglez).<br />
+GitHub Profiles: [Diego Dominguez Gonzalez](https://github.com/seniorglez), [Carlos del Cura Pascual](https://github.com/InfaSysKey), [Saul Blanco Tejero](https://github.com/Saul-BT), [Edgar Lopez Herrera](https://github.com/edoardoelh), [Diego Sanchez Strange](https://github.com/diegosanchezstrange).<br />
 This project is [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) licensed.
 
 ***
