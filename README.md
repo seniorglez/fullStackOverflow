@@ -10,15 +10,13 @@
 
 > PinAround is maybe the simplest way to use Nasa's WorldWind. Build for the Nasa's 2019 International Space Apps Challenge: https://2019.spaceappschallenge.org/challenges/living-our-world/show-me-data/details
 
-## Install
+## Authors
 
-```sh
-npm install
-```
-
-## Author
-
-👤 **Diego Dominguez Gonzalez, Carlos del Cura Pascual, Saul Blanco Tejero, Edgar Lopez Herrera, Diego Sanchez Strange**
+👤 **Diego Dominguez Gonzalez<br>
+  Carlos del Cura Pascual<br>
+  Saul Blanco Tejero<br>
+  Edgar Lopez Herrera<br>
+  Diego Sanchez Strange**
 
 * Twitter: [@DGlez1111](https://twitter.com/DGlez1111)
 * Github: [@seniorglez](https://github.com/seniorglez)
