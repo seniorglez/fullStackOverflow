@@ -17,30 +17,22 @@ var shapeConfigurationCallback = function (attributes, record) {
     var configuration = {};
     configuration.name = attributes.values.name || attributes.values.Name || attributes.values.NAME;
 
-    if (record.isPointType()) { // Configure point-based features (cities, in this example)
-        configuration.name = attributes.values.name || attributes.values.Name || attributes.values.NAME;
-
-        configuration.attributes = new WorldWind.PlacemarkAttributes(placemarkAttributes);
-
-        if (attributes.values.pop_max) {
-            var population = attributes.values.pop_max;
-            configuration.attributes.imageScale = 0.01 * Math.log(population);
-        }
-    } else if (record.isPolygonType()) { // Configure polygon-based features (countries, in this example).
+    if (record.isPolygonType()) 
+    { 
         configuration.attributes = new WorldWind.ShapeAttributes(null);
 
         let data = birthRate.split("\n");
         let currentRateColors;
         let currentRate;
         let maxNumber = 0;
+
         data.forEach(element => {
             let currentNumber = parseInt(element.split(",")[1]);
             if (currentNumber > maxNumber) {
                 maxNumber =  currentNumber;
             }
         });
-        console.log("max:" + maxNumber);
-        console.log("name:" + record.attributes.values.name);
+
         data.forEach(element => {
             if (element.split(",")[0] === record.attributes.values.name) {
                 currentRate = map_range(parseInt(element.split(",")[1]), 0, maxNumber, 0, 60);
@@ -52,7 +44,6 @@ var shapeConfigurationCallback = function (attributes, record) {
         }
 
         currentRateColors = color_Map(currentRate);
-        console.log(currentRate);
         
         //Color between  0 and 1
         configuration.attributes.interiorColor = new WorldWind.Color(
