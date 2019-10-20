@@ -2,14 +2,6 @@ import {
     birthRate
 } from "./csv.js";
 
-// variable canvas
-var wwd = new WorldWind.WorldWindow("canvasOne");
-
-wwd.addLayer(new WorldWind.BMNGOneImageLayer());
-wwd.addLayer(new WorldWind.BMNGLandsatLayer());
-wwd.addLayer(new WorldWind.AtmosphereLayer());
-
-
 /* Functions */
 //ShapeFiles
 var shapeConfigurationCallback = function (attributes, record) {
@@ -98,5 +90,3 @@ function color_Map(number) {
         return orange;
     }
 }
-
-create_country_layer();
