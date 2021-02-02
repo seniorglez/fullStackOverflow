@@ -15,9 +15,6 @@
 👤 [Edgar Lopez Herrera](https://github.com/edoardoelh)<br>
 👤 [Diego Sanchez Strange](https://github.com/diegosanchezstrange)**
 
-* Twitter: [@DGlez1111](https://twitter.com/DGlez1111)
-* Github: [@seniorglez](https://github.com/seniorglez)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
