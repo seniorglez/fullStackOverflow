@@ -3,20 +3,17 @@
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">
     <img alt="License: GPL3" src="https://img.shields.io/badge/License-GPL3-yellow.svg" />
   </a>
-  <a href="https://twitter.com/DGlez1111" target="_blank">
-    <img alt="Twitter: DGlez1111" src="https://img.shields.io/twitter/follow/DGlez1111.svg?style=social" />
-  </a>
 </p>
 
 > PinAround is maybe the simplest way to use Nasa's WorldWind. Build for the Nasa's 2019 International Space Apps Challenge: https://2019.spaceappschallenge.org/challenges/living-our-world/show-me-data/details
 
 ## Authors
 
-👤 **Diego Dominguez Gonzalez<br>
-  Carlos del Cura Pascual<br>
-  Saul Blanco Tejero<br>
-  Edgar Lopez Herrera<br>
-  Diego Sanchez Strange**
+👤 **[Diego Dominguez Gonzalez](https://github.com/seniorglez)<br>
+👤 [Carlos del Cura Pascual](https://github.com/InfaSysKey)<br>
+👤 [Saul Blanco Tejero](https://github.com/Saul-BT)<br>
+👤 [Edgar Lopez Herrera](https://github.com/edoardoelh)<br>
+👤 [Diego Sanchez Strange](https://github.com/diegosanchezstrange)**
 
 * Twitter: [@DGlez1111](https://twitter.com/DGlez1111)
 * Github: [@seniorglez](https://github.com/seniorglez)
@@ -27,8 +24,14 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-GitHub Profiles: [Diego Dominguez Gonzalez](https://github.com/seniorglez), [Carlos del Cura Pascual](https://github.com/InfaSysKey), [Saul Blanco Tejero](https://github.com/Saul-BT), [Edgar Lopez Herrera](https://github.com/edoardoelh), [Diego Sanchez Strange](https://github.com/diegosanchezstrange).<br />
-This project is [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) licensed.
+PinAround is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or any later version.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+PinAround is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the [GNU General Public License](LICENSE)
+along with PinAround. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
